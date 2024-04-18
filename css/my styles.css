@@ -1,0 +1,103 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color:#fdfdff;
+}  
+
+/*div styles*/
+.common{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+position: absolute;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.middle{
+    top: 200px;
+    left: 0px;
+    right: 0px;
+}
+.bottom{
+   position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color:blanchedalmond;
+    font-style: italic;
+    font-weight: bold;
+}
+    .imgcenter{
+        
+        height: 200px;
+        display: block;
+        margin: auto;
+        border: 5PX solid burlywood; 
+       
+    
+    }
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column.left {
+    width: 40%;
+    padding: 20px;
+;
+    border-right: 1px solid #0a0a0a; /* Add the vertical line */
+  }
+  
+  .column.right {
+    width: 60%;
+    border-right: none; /* Remove the right border on the last column */
+    padding: 20px  
+}
+}
+hr {
+    border: 1px solid #ccc; /* Change the color and thickness of the line */
+    width: 80%; /* Adjust the width of the line */
+    margin: 20px 0; /* Add some spacing above and below the line */
+  }
+
+summary{
+    padding-left: 6%;
+    font-size:190%;
+    margin-top: 6px;
+    margin-bottom:8px;
+    color: darkblue;
+   
+
+}
+p{
+    padding-left: 10%;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+h3{font-size: 95%;
+    padding-left: 8%;
+    margin-top: 4px;
+    margin-bottom: 4px;}
+
+h5{
+    padding-left: 5px;
+margin-top: 4px;
+margin-bottom: 5px;}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid #090808;
+    padding: 8px;
+    text-align: left;
+  }
